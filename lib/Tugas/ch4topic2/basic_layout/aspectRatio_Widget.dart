@@ -9,18 +9,18 @@ class AspectRatioWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Jago Flutter - Aspect Ratio"),
+        title: const Text("JagoFlutter - AspectRatio"),
       ),
       body: Container(
-        padding: const EdgeInsets.all(30),
+        padding: const EdgeInsets.all(10),
         child: Column(
           children: [
             AspectRatio(
-              aspectRatio: 100 / 100,
+              aspectRatio: 150 / 100,
               child: Container(
                 color: Colors.blue,
               ),
-            )
+            ),
           ],
         ),
       ),

@@ -18,7 +18,7 @@ class GridViewWidget extends StatelessWidget {
             Expanded(
               child: GridView.count(
                 crossAxisCount: 2,
-                childAspectRatio: 185 / 243,
+                childAspectRatio: 240 / 243,
                 mainAxisSpacing: 16,
                 crossAxisSpacing: 16,
                 children: [

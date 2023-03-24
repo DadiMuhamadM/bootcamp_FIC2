@@ -16,6 +16,7 @@ import 'package:flutter/material.dart';
 import 'Tugas/ch4topic1/stateless_statefull_widged.dart';
 import 'Tugas/ch4topic2/basic_layout/stack_widget.dart';
 import 'Tugas/ch4topic2/basic_widget/circle_avatar_widget.dart';
+import 'Tugas/ch4topic2/navigation/bottom_navbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ImageWidget(),
+      home: const BottomNavbarWidget(),
     );
   }
 }
